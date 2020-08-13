@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Login suite]">
+  <test thread-count="5" name="VerifyLoginTest(failed)">
+    <parameter name="PASSWORD" value="pass1234"/>
+    <parameter name="USERNAME" value="akuser"/>
+    <classes>
+      <class name="com.oboopay.test.VerifyLoginTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="0"/>
+          <include name="openURL"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.oboopay.test.VerifyLoginTest -->
+    </classes>
+  </test> <!-- VerifyLoginTest(failed) -->
+</suite> <!-- Failed suite [Login suite] -->
