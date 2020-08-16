@@ -1,13 +1,13 @@
-package com.oboopay.test;
+package com.test.tests;
 
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.obopay.customFunctions.GenricMethods;
-import com.obopay.pages.HomePage;
-import com.obopay.pages.LoginPage;
+import com.test.customFunctions.GenricMethods;
+import com.test.pages.HomePage;
+import com.test.pages.LoginPage;
 public class VerifyLoginTest extends OpenBrowser
 {
 	

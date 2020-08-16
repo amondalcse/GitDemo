@@ -1,11 +1,11 @@
-package com.obopay.pages;
+package com.test.pages;
 
-import static com.obopay.customFunctions.PropertyFileReader.OR;
+import static com.test.customFunctions.PropertyFileReader.OR;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import com.obopay.customFunctions.GenricMethods;
+import com.test.customFunctions.GenricMethods;
 
 public class HomePage 
 {

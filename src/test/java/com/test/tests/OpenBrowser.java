@@ -1,4 +1,4 @@
-package com.oboopay.test;
+package com.test.tests;
 
 
 
@@ -12,8 +12,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 
-import static com.obopay.customFunctions.PropertyFileReader.config;
-import com.obopay.customFunctions.*;
+import static com.test.customFunctions.PropertyFileReader.config;
+import com.test.customFunctions.*;
+import com.test.customFunctions.PropertyFileReader;
 
 public class OpenBrowser 
 {

@@ -1,6 +1,6 @@
-package com.oboopay.test;
+package com.test.tests;
 
-import static com.obopay.customFunctions.PropertyFileReader.config;
+import static com.test.customFunctions.PropertyFileReader.config;
 
 import java.io.IOException;
 
@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import com.obopay.customFunctions.PropertyFileReader;
+import com.test.customFunctions.PropertyFileReader;
 
 public class Assignment
 {

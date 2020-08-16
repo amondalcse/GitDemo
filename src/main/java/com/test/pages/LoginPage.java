@@ -1,9 +1,9 @@
-package com.obopay.pages;
-import static com.obopay.customFunctions.PropertyFileReader.OR;
+package com.test.pages;
+import static com.test.customFunctions.PropertyFileReader.OR;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import com.obopay.customFunctions.GenricMethods;
+import com.test.customFunctions.GenricMethods;
 
 public class LoginPage 
 {
